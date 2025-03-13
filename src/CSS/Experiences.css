@@ -1,12 +1,18 @@
 .container-general-experiences {
 	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 .experiences-container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	padding: 3% 25%;
+	width: 100%;
 }
 
 .experiences-title {
@@ -16,6 +22,9 @@
 	color: black;
 	margin-block-start: 0.83em;
 	margin-block-end: 0.83em;
-	margin-left: 150px;
-	align-self: flex-start;
+	width: 100%;
+}
+
+.experiences {
+	width: 100%;
 }

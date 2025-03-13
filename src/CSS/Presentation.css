@@ -1,12 +1,17 @@
 .container-general-presentation {
 	background-color: #f8edeb;
+	display: flex;
+	flex-direction: column;
+	width: 100%; 
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 1%;
 }
 
 .container-presentation {
 	display: flex;
 	justify-content: flex-start;
 	min-height: 70vh;
-	margin-top: 50px;
 }
 
 .box-presentation {
@@ -26,7 +31,6 @@
 	gap: 10px;
 	justify-content: center;
 	align-items: flex-start;
-	margin-left: 150px;
 }
 
 .full-name {

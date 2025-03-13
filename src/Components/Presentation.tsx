@@ -16,7 +16,7 @@ function Presentation() {
 				}`}
 			>
 				<div className="presentation">
-					<h1 className="full-name">Joseph Smithort</h1>
+					<h1 className="full-name">Joseph Mogaizel</h1>
 					<h1 className="role">Full-Stack Developer</h1>
 					<div className="logos">
 						<a href="https://www.google.com">

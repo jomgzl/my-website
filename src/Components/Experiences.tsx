@@ -20,7 +20,7 @@ function Experiences({ listOfExperiences }: Props) {
 		<div className="container-general-experiences">
 			<div className="container experiences-container">
 				<h1 className="experiences-title">Work Experiences</h1>
-				<div>
+				<div className="experiences">
 					{listOfExperiences.map((experience) => (
 						<Experience
 							key={experience.id}
