@@ -1,54 +1,94 @@
-# React + TypeScript + Vite
+# my-website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Structure
 
-Currently, two official plugins are available:
+### Header
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+		Site title: "My Portfolio"
+		Navigation (Optional): "Home | Projects | Skills | Contact"
+		Dark mode toggle button
 
-## Expanding the ESLint configuration
+### Main Content
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+		Hero Section
+			Your name & introduction
+			Short description (e.g., "Full-Stack Developer | React | TypeScript")
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+		Projects Section
+			Title: "Projects"
+			Grid layout showcasing project cards
+			Each project card includes:
+				Project title
+				Short description
+				Link to GitHub or live demo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+		Skills Section
+			Title: "Skills"
+			List of technologies (e.g., "React, TypeScript, SQL, Tailwind")
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+		Contact Section
+			Title: "Let's Connect"
+			Links to GitHub, LinkedIn, Email, etc.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Footer
+		Copyright notice: "© [Year] [Your Name]. All rights reserved."
+
+
+## Components
+
+### Header
+#### Navigation Bar
+
+### Main Content
+#### Hero Section
+#### Projects Section
+#### Skills Section
+#### Contact Section
+
+### Footer
+#### Footer section
+
+## Components Details
+
+### Header
+#### Navigation Bar
+		Hero | Projects | Skills | Contact
+
+### Main Content
+#### Hero Section
+		Your name & introduction
+		Short description (e.g., "Full-Stack Developer | React | TypeScript")
+
+		DIV, paragraph
+
+#### Projects Section
+		Title: "Projects"
+		Grid layout showcasing project cards
+		Each project card includes:
+			Project title
+			Short description
+			Link to GitHub or live demo
+
+#### Skills Section
+		Title: "Skills"
+		List of technologies (e.g., "React, TypeScript, SQL, Tailwind")
+
+		Card:
+				- On one side, title (Back-end, front-end, etc)
+				- Click on the card and flip it
+				- On the other side, the list of the skills
+
+### Footer
+#### Contact Section
+		Title: "Let's Connect"
+		Links to GitHub, LinkedIn, Email, etc.
+
+		Form:
+				- Name
+				- Email
+				- Message
+				- Button to validate
+
+### Footer
+#### Footer section
+		Copyright notice: "© [Year] [Your Name]. All rights reserved."

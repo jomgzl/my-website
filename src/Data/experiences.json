@@ -1,0 +1,25 @@
+[
+	{
+		"id": 1,
+		"title": "Full Stack Developer @Efficy",
+		"date": "jan. 2022 - dec. 2022",
+		"logo": "backend.svg",
+		"description": "I crafted a task application allowing smooth daily organization.",
+		"tasks": [
+			"Designed and developed 20+ new features using JavaScript, jQuery, Node.js, SQL, and SVN.",
+			"Debugged and identified 40+ issues, contributing to a customer satisfaction increase of up to 95%."
+		],
+		"skills": ["Node.js", "JavaScript", "Clean Code", "MSSQL", "SVN"]
+	},
+	{
+		"id": 2,
+		"title": "Full Stack Developer @BSynchro",
+		"date": "oct. 2021 - dec. 2021",
+		"logo": "backend.svg",
+		"description": "I crafted a task application allowing smooth daily organization.",
+		"tasks": [
+			"Collaborated with senior developers to code responsive and interactive interfaces using Angular and C#."
+		],
+		"skills": ["C#", "responsive interface", "github"]
+	}
+]

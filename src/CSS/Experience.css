@@ -1,0 +1,28 @@
+.experience-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	border-bottom: 1px solid #2a2a2a;
+	padding-top: 1rem;
+	padding-bottom: 0.8rem;
+	min-width: 64vw;
+}
+
+.experience-information {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.experience-date {
+	min-width: 20rem;
+	max-width: 20rem;
+}
+
+.company-logo {
+	height: 38px;
+}
+
+.down-arrow {
+	height: 24px;
+}

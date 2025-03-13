@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"title": "TaskApp",
+		"logo": "task-app.gif",
+		"summary": "I crafted a task application allowing smooth daily organization.",
+		"technologies": ["Node.js", "Express.js", "MySQL"]
+	},
+	{
+		"id": 2,
+		"title": "My Website",
+		"logo": "my-website.gif",
+		"summary": " This website that I built to showcase my skills and present my profile.",
+		"technologies": ["React", "Vite", "TypeScript"]
+	},
+	{
+		"id": 3,
+		"title": "Password Generator",
+		"logo": "password-generator.gif",
+		"summary": "I crafted a basic password generator offering multiple generation choices.",
+		"technologies": ["Python"]
+	}
+]

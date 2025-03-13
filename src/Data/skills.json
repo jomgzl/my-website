@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"heading": "Back-end",
+		"logo": "backend.svg",
+		"skills": [
+			{ "name": "Node.js", "logo": "node.svg" },
+			{ "name": "Express.js", "logo": "express.svg" },
+			{ "name": "SQL", "logo": "sql.svg" }
+		]
+	},
+	{
+		"id": 2,
+		"heading": "Front-end",
+		"logo": "frontend.svg",
+		"skills": [
+			{ "name": "React.js", "logo": "react.svg" },
+			{ "name": "JavaScript", "logo": "javascript.svg" },
+			{ "name": "TypeScript", "logo": "typescript.svg" }
+		]
+	},
+	{
+		"id": 3,
+		"heading": "Soft",
+		"logo": "soft-skills.png",
+		"skills": [
+			{ "name": "Communication", "logo": "communication.svg" },
+			{ "name": "Problem Solving", "logo": "problem-solving.svg" },
+			{ "name": "Teamwork", "logo": "teamwork.svg" }
+		]
+	}
+]
