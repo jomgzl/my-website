@@ -26,7 +26,7 @@ function CardList({ listOfSkills }: Props) {
 	}, []);
 
 	return (
-		<div className="container-general-skills">
+		<div id="skills" className="container-general-skills">
 			<div
 				className={`container container-card-list box-card-list ${
 					show ? "animate-card-list" : ""

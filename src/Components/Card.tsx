@@ -14,9 +14,14 @@ interface Props {
 
 function Card({ skills, heading, logo }: Props) {
 	let [flipCard, setFlipCard] = useState(false);
+	let [isHovered, setIsHovered] = useState(false);
 
 	const clickFlip = () => {
 		setFlipCard(!flipCard);
+	};
+
+	const hoverButton = () => {
+		setIsHovered(!isHovered);
 	};
 
 	const skillsList = skills.map((skill) => (
@@ -33,35 +38,46 @@ function Card({ skills, heading, logo }: Props) {
 	));
 
 	const fullCard = (
-		<div className="card-custom">
+		<div className={`card-custom ${isHovered ? "card-custom-hover" : ""}`}>
 			<div className={`inner ${flipCard ? "flip" : ""} `}>
 				<div className="front-card">
-					<div className="card-header-cst">
+					<div className="card-header-cst-front">
 						<img
 							src={logo}
-							className="card-img-top custom-card-img-top"
+							className="card-img-top custom-card-img-top-front"
 							alt="category-logo"
 						/>
 						{heading}
 					</div>
 					<button
 						type="button"
-						className="button-test button-flip"
+						className="button-flip"
 						onClick={clickFlip}
+						onMouseEnter={() => setIsHovered(true)}
+						onMouseLeave={() => setIsHovered(false)}
 					>
 						The List !
 					</button>
 				</div>
-				<div className="back-card" onClick={clickFlip}>
-					<div className="card-header-cst">
+				<div
+					className="back-card"
+					onClick={clickFlip}
+					onMouseEnter={() => setIsHovered(true)}
+					onMouseLeave={() => setIsHovered(false)}
+				>
+					<div className="card-header-cst-back">
 						<img
 							src={logo}
-							className="card-img-top custom-card-img-top"
+							className="card-img-top custom-card-img-top-back"
 							alt="category-logo"
 						/>
 						{heading}
 					</div>
-					<ul className="list-group list-group-flush list-skills">
+					<ul
+						className={`list-group list-group-flush ${
+							heading === "Soft" ? "soft-skills" : "list-skills"
+						}`}
+					>
 						{skillsList}
 					</ul>
 				</div>

@@ -2,7 +2,7 @@
 	background-color: Black;
 	display: flex;
 	flex-direction: column;
-	width: 100%; 
+	width: 100%;
 	padding-left: 20%;
 	padding-right: 20%;
 }
@@ -28,7 +28,7 @@
 .about {
 	display: flex;
 	flex-direction: column;
-	width: 63%;
+	max-width: 70%;
 }
 
 .about-title {
@@ -47,4 +47,8 @@
 
 p {
 	margin: 0;
+}
+
+.bold {
+	font-size: bold;
 }

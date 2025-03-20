@@ -17,7 +17,7 @@ interface Props {
 
 function Experiences({ listOfExperiences }: Props) {
 	return (
-		<div className="container-general-experiences">
+		<div id="work-experiences" className="container-general-experiences">
 			<div className="container experiences-container">
 				<h1 className="experiences-title">Work Experiences</h1>
 				<div className="experiences">

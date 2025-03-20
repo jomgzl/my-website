@@ -1,10 +1,11 @@
 .container-general-experiences {
-	background-color: white;
+	background-color: black;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-bottom: 2.1em;
 }
 
 .experiences-container {
@@ -19,7 +20,7 @@
 	display: block;
 	font-size: 40px;
 	font-weight: bold;
-	color: black;
+	color: white;
 	margin-block-start: 0.83em;
 	margin-block-end: 0.83em;
 	width: 100%;

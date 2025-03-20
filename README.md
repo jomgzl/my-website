@@ -92,3 +92,39 @@
 ### Footer
 #### Footer section
 		Copyright notice: "© [Year] [Your Name]. All rights reserved."
+
+
+###### Left To Do:
+
+Navbar:
+			- Navigation DONE
+			- Background color TO BE REVIEWED
+		
+Presentation:
+			- Background color TO BE REVIEWED
+		
+About me:
+			- Text DONE
+			
+Skills:
+			- Card design TO BE REVIEWED
+			
+Side Projects:
+			- When clicked:
+							- Description DONE
+							- Git repository DONE
+							
+Work Experiences:
+			- Company logos DONE
+			- When clicked:
+							- Description DONE
+							- Tasks DONE
+							
+Footer:
+			- Image TO DO
+
+Sections background colors TO BE REVIEWED
+
+Animation, components appear when we scroll down TO DO/MAYBE
+
+Add images throughout the website TO DO

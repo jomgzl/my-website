@@ -15,8 +15,8 @@
 		"logo": "frontend.svg",
 		"skills": [
 			{ "name": "React.js", "logo": "react.svg" },
-			{ "name": "JavaScript", "logo": "javascript.svg" },
-			{ "name": "TypeScript", "logo": "typescript.svg" }
+			{ "name": "TypeScript", "logo": "typescript.svg" },
+			{ "name": "JavaScript", "logo": "javascript.svg" }
 		]
 	},
 	{

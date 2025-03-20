@@ -5,12 +5,15 @@ interface Props {
 	title: string;
 	logo: string;
 	summary: string;
+	description: string;
 	technologies: string[];
+	github: string;
+	onClick: () => void;
 }
 
-function Project({ title, logo, summary, technologies }: Props) {
+function Project({ title, logo, summary, technologies, onClick }: Props) {
 	return (
-		<div className="project-container">
+		<div className="project-container" onClick={onClick}>
 			<div>
 				<img className="project-logo" src={logo} alt={title} />
 			</div>
@@ -19,7 +22,9 @@ function Project({ title, logo, summary, technologies }: Props) {
 				<p className="project-description">{summary}</p>
 				<div className="project-technologies">
 					{technologies.map((technology) => (
-						<div key={technology} className="project-technology">{technology}</div>
+						<div key={technology} className="project-technology">
+							{technology}
+						</div>
 					))}
 				</div>
 			</div>

@@ -1,28 +1,18 @@
 .navbar-section-1 {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	padding-top: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
+	padding-bottom: 20px;
+	background-color: black;
 }
 
 .titles {
-	font-size: 20px;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 24px;
 }
 
-.about-me {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	justify-self: center;
-}
-
-.skills {
-	justify-self: center;
-}
-
-.projects {
-	grid-column-start: 4;
-	grid-column-end: 5;
+.about-me,
+.skills,
+.projects,
+.work-experiences {
 	justify-self: center;
 }
