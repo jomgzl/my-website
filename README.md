@@ -128,3 +128,19 @@ Sections background colors TO BE REVIEWED
 Animation, components appear when we scroll down TO DO/MAYBE
 
 Add images throughout the website TO DO
+
+
+
+Fix Git and LinkedIn sites DONE
+
+Change full stack to web developer DONE
+
+Work Experiences mechanism DONE
+
+Remove footer picture DONE
+
+Blue backgroudn color throughout the site TO REVIEW
+
+Change logo of task app to harmonize it with the other ones MAYBE
+
+Card mechanism, remove button, click on one and they all open (as a deck) TO DO

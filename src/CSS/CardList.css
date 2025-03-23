@@ -1,7 +1,8 @@
 .container-general-skills {
+	background-color: #e7f1f9;
 	display: flex;
 	flex-direction: column;
-	width: 100%; 
+	width: 100%;
 	padding-left: 20%;
 	padding-right: 20%;
 }
@@ -30,7 +31,7 @@
 	font-size: 40px;
 	font-weight: bold;
 	margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+	margin-block-end: 0.83em;
 	width: 100%;
 }
 
@@ -40,3 +41,25 @@
 	gap: 1rem;
 	width: 100%;
 }
+
+.cards:hover .card-custom .inner {
+	transform: rotateY(180deg);
+}
+
+.cards:hover .card-custom:nth-child(1) .inner {
+	transition-delay: 0s;
+}
+
+.cards:hover .card-custom:nth-child(2) .inner {
+	transition-delay: 0.2s;
+}
+
+.cards:hover .card-custom:nth-child(3) .inner {
+	transition-delay: 0.3s;
+}
+
+/* 
+  .test {
+	color: red;
+	background-color: Purple;
+  } */

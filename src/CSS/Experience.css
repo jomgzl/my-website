@@ -55,7 +55,7 @@
 	color: white;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.3s ease-in-out;
+	transition: max-height 0.2s ease-out;
 }
 
 .experience-details-show {
@@ -63,8 +63,7 @@
 	flex-direction: column;
 	color: white;
 	max-height: 50vh;
-	overflow: hidden;
-	transition: max-height 0.3s ease-in-out;
+	transition: max-height 0.2s ease-out;
 }
 
 .experience-description-head {
@@ -124,8 +123,7 @@
 	padding: 0.15rem 0.5rem;
 }
 
-.experience-details h5 {
+.experience-details h5, .experience-details-show h5 {
 	font-weight: bold;
 	font-size: 22px;
 }
-
