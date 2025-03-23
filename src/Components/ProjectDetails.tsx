@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "../CSS/ProjectDetails.css";
 
 function ProjectDetails() {
-	const { projectId } = useParams();
+	// const { projectId } = useParams();
 	const location = useLocation();
 	const { title, logo, description, github } = { ...location.state };
 

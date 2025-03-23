@@ -18,18 +18,18 @@ function Card({ id, skills, heading, logo }: Props) {
 	let [isHovered, setIsHovered] = useState(false);
 	let [isActive, setIsActive] = useState<number | null>(null);
 
-	const activeCard = (id: number) => {
-		setIsActive(id);
+	// const activeCard = (id: number) => {
+	// 	setIsActive(id);
 
-		const cardsToFlip = [id, (id % 3) + 1, (id % 3) + 1 + 1];
-		const delay = 300;
+	// 	const cardsToFlip = [id, (id % 3) + 1, (id % 3) + 1 + 1];
+	// 	const delay = 300;
 
-		cardsToFlip.forEach((card, index) =>
-			setTimeout(() => {
-				setIsActive((prev) => (prev === id ? card : prev));
-			}, delay * index)
-		);
-	};
+	// 	cardsToFlip.forEach((card, index) =>
+	// 		setTimeout(() => {
+	// 			setIsActive((prev) => (prev === id ? card : prev));
+	// 		}, delay * index)
+	// 	);
+	// };
 
 	// const clickFlip = () => {
 	// 	setFlipCard(!flipCard);
