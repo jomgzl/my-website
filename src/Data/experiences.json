@@ -1,6 +1,19 @@
 [
 	{
 		"id": 1,
+		"title": "Full Stack Developer @Biteright",
+		"date": "jan. 2025 - now",
+		"logo": "biteright.svg",
+		"description": "Developed a nutrition app.",
+		"tasks": [
+			"Developed 60% of the front-end, according to the UX/UI designs.",
+			"Integrated the app's AI with Apple smartwatches.",
+			"Collaborate with the CEO and CTO to define priorities"
+		],
+		"skills": ["React Native", "AI", "Github"]
+	},
+	{
+		"id": 2,
 		"title": "Full Stack Developer @Efficy",
 		"date": "jan. 2022 - dec. 2022",
 		"logo": "efficy.svg",
@@ -13,7 +26,7 @@
 		"skills": ["Node.js", "JavaScript", "Clean Code", "MSSQL", "SVN"]
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"title": "Full Stack Developer @BSynchro",
 		"date": "oct. 2021 - dec. 2021",
 		"logo": "bsynchro.svg",
