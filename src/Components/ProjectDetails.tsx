@@ -55,7 +55,7 @@ function ProjectDetails() {
 					<h1 className="project-details-title">{title}</h1>
 					<img
 						className="project-details-image"
-						src={`../../public/${logo}`}
+						src={`/${logo}`}
 						alt="Project Logo"
 					/>
 				</div>
