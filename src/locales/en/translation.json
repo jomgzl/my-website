@@ -1,0 +1,95 @@
+{
+	"about-title": "About me",
+	"skills": "Skills",
+	"projects-title": "Projects",
+	"work-experiences-nav": "Work Experience",
+	"work-experiences-title": "Work Experience",
+	"language": "Language",
+	"role": "Web Developer",
+	"about": "I'm a <strong>web developer</strong> specialized in the <strong> JavaScript</strong> ecosystem. I love to craft <strong> high-quality software</strong> through <strong> clean code</strong> and <strong> best practices</strong>.",
+	"side-projects": "Side Projects",
+	"skills-cards": {
+		"1": {
+			"skills": {
+				"Node.js": "Node.js",
+				"Express.js": "Express.js",
+				"SQL": "SQL"
+			}
+		},
+		"2": {
+			"skills": {
+				"React.js": "React.js",
+				"TypeScript": "TypeScript",
+				"JavaScript": "JavaScript"
+			}
+		},
+		"3": {
+			"skills": {
+				"Communication": "Communication",
+				"Problem Solving": "Problem Solving",
+				"Teamwork": "Teamwork"
+			}
+		}
+	},
+	"projects": {
+		"1": {
+			"title": "My Website",
+			"logo": "my-website.gif",
+			"summary": " This website that I built to showcase my skills and present my profile.",
+			"description": "I wanted to <strong>build a website</strong> that would <strong>represent me</strong> and <strong>showcase</strong> my skills</strong> and <strong>my profile</strong>. I decided to <strong>code</strong> my <strong>own website from scratch</strong>, using <strong>React</strong>, <strong>Vite</strong> and <strong>TypeScript</strong>.",
+			"technologies": ["React", "Vite", "TypeScript"],
+			"github": "https://github.com/jomgzl/my-website"
+		},
+		"2": {
+			"title": "TaskApp",
+			"logo": "task-app.gif",
+			"summary": "I crafted a task application allowing smooth daily organization.",
+			"description": "I decided to <strong>code a task app</strong> that would be <strong>simple</strong>, <strong>straightforward</strong> and <strong>efficient</strong>. I used <strong>Node.js</strong>, <strong>Express.js</strong> and <strong>MySQL2</strong> to <strong>build it from scratch</strong>.",
+			"technologies": ["Node.js", "Express.js", "MySQL2"],
+			"github": "https://github.com/jomgzl/Task-App"
+		},
+		"3": {
+			"title": "Password Generator",
+			"title-details": "Password Generator",
+			"logo": "password-generator.gif",
+			"summary": "I crafted a password generator offering multiple generation choices.",
+			"description": "In my <strong>quest and passion</strong> for <strong>programming</strong>, I <strong>coded a password generator</strong> using <strong>Python</strong> that allows users to choose from <strong>multiple generation options</strong>.",
+			"technologies": ["Python"],
+			"github": "https://github.com/jomgzl/Password-generator-Python"
+		}
+	},
+	"experiences": {
+		"1": {
+			"title": "Full Stack Developer @Biteright",
+			"date": "jan. 2025 - now",
+			"description": "Developed a nutrition app.",
+			"tasks": {
+				"Developed 60% of the front-end, according to the UX/UI designs.": "Developed 60% of the front-end, according to the UX/UI designs.",
+				"Integrated the app's AI with Apple and Android smartwatches.": "Integrated the app's AI with Apple and Android smartwatches.",
+				"Collaborate with the CEO and CTO to define priorities.": "Collaborate with the CEO and CTO to define priorities."
+			},
+			"skills": ["React Native", "AI", "Github"]
+		},
+		"2": {
+			"title": "Full Stack Developer @Efficy",
+			"date": "jan. 2022 - dec. 2022",
+			"description": "Crafted multiple projects tailored for various customers.",
+			"tasks": {
+				"Designed and developed 20+ new features using JavaScript, jQuery, Node.js, SQL and SVN.": "Designed and developed 20+ new features using JavaScript, jQuery, Node.js, SQL and SVN.",
+				"Debugged and identified 40+ issues, contributing to a customer satisfaction increase of up to 95%.": "Debugged and identified 40+ issues, contributing to a customer satisfaction increase of up to 95%.",
+				"Collaborated using Agile methodologies within cross-functional teams.": "Collaborated using Agile methodologies within cross-functional teams."
+			},
+			"skills": ["Node.js", "JavaScript", "Clean Code", "MSSQL", "SVN"]
+		},
+		"3": {
+			"title": "Full Stack Developer @BSynchro",
+			"date": "oct. 2021 - dec. 2021",
+			"description": "Developed a beta version movie project.",
+			"tasks": {
+				"Collaborated with senior developers to code responsive and interactive interfaces using Angular and C#.": "Collaborated with senior developers to code responsive and interactive interfaces using Angular and C#."
+			},
+			"skills": ["C#", "Responsive Interface", "Github"]
+		}
+	},
+	"tasks": "Tasks"
+}

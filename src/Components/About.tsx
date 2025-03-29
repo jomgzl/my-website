@@ -1,8 +1,10 @@
 import "../CSS/About.css";
 import { useState, useEffect } from "react";
+import { useTranslation, Trans } from "react-i18next";
 
 function About() {
 	const [show, setShow] = useState(false);
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		setShow(true);
@@ -16,13 +18,11 @@ function About() {
 				}`}
 			>
 				<div className="about">
-					<h1 className="about-title">About me</h1>
+					<h1 className="about-title">
+						<Trans i18nKey="about-title" />
+					</h1>
 					<p className="about-paragraph">
-						I'm a <strong>web developer</strong> specialized in the
-						<strong> JavaScript</strong> ecosystem. I love to craft
-						<strong> high-quality software</strong> through
-						<strong> clean code</strong> and
-						<strong> best practices</strong>.
+						<Trans i18nKey="about" />
 					</p>
 				</div>
 			</div>

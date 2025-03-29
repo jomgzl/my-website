@@ -1,6 +1,7 @@
 import Card from "./Card.tsx";
 import "../CSS/CardList.css";
 import { useState, useEffect } from "react";
+import { useTranslation, Trans } from "react-i18next";
 
 interface Skill {
 	name: string;
@@ -20,6 +21,7 @@ interface Props {
 
 function CardList({ listOfSkills }: Props) {
 	const [show, setShow] = useState(false);
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		setShow(true);
@@ -32,7 +34,9 @@ function CardList({ listOfSkills }: Props) {
 					show ? "animate-card-list" : ""
 				}`}
 			>
-				<h1 className="skills-title">Skills</h1>
+				<h1 className="skills-title">
+					<Trans i18nKey="skills" />
+				</h1>
 				<div className="cards">
 					{listOfSkills.map((data) => (
 						<Card key={data.id} {...data}></Card>

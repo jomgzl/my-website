@@ -1,6 +1,7 @@
 import "../CSS/Projects.css";
 import Project from "./Project";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface Project {
 	id: number;
@@ -18,6 +19,7 @@ interface Props {
 
 function Projects({ listOfProjects }: Props) {
 	const navigate = useNavigate();
+	const { t } = useTranslation();
 
 	const handleProjectClick = (project: Project) => {
 		navigate(`/project/${project.id}`, { state: project });
@@ -26,7 +28,7 @@ function Projects({ listOfProjects }: Props) {
 	return (
 		<div id="projects" className="container-general-projects">
 			<div className="container projects-container">
-				<h1 className="projects-title">Side Projects</h1>
+				<h1 className="projects-title">{t("side-projects")}</h1>
 				{listOfProjects.map((project) => (
 					<Project
 						key={project.id}

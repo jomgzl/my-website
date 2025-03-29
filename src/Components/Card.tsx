@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../CSS/Card.css";
+import { useTranslation } from "react-i18next";
 
 interface Skill {
 	name: string;
@@ -17,6 +18,7 @@ function Card({ id, skills, heading, logo }: Props) {
 	// let [flipCard, setFlipCard] = useState(false);
 	let [isHovered, setIsHovered] = useState(false);
 	let [isActive, setIsActive] = useState<number | null>(null);
+	const { t } = useTranslation();
 
 	// const activeCard = (id: number) => {
 	// 	setIsActive(id);
@@ -39,6 +41,19 @@ function Card({ id, skills, heading, logo }: Props) {
 	// 	setIsHovered(!isHovered);
 	// };
 
+	// const skillsList = skills.map((skill) => (
+	// 	<li key={skill.name} className="list-group-item">
+	// 		<img
+	// 			src={skill.logo}
+	// 			alt={skill.name}
+	// 			className={`skill-logo ${
+	// 				skill.name === "Node.js" || "SQL" ? "node-logo" : ""
+	// 			} `}
+	// 		/>
+	// 		{skill.name}
+	// 	</li>
+	// ));
+
 	const skillsList = skills.map((skill) => (
 		<li key={skill.name} className="list-group-item">
 			<img
@@ -48,7 +63,7 @@ function Card({ id, skills, heading, logo }: Props) {
 					skill.name === "Node.js" || "SQL" ? "node-logo" : ""
 				} `}
 			/>
-			{skill.name}
+			{t(`skills-cards.${id}.skills.${skill.name}`)}
 		</li>
 	));
 

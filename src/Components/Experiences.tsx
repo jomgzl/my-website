@@ -1,5 +1,6 @@
 import "../CSS/Experiences.css";
 import Experience from "./Experience";
+import { useTranslation } from "react-i18next";
 
 interface Experiences {
 	id: number;
@@ -16,10 +17,12 @@ interface Props {
 }
 
 function Experiences({ listOfExperiences }: Props) {
+	const { t } = useTranslation();
+
 	return (
 		<div id="work-experiences" className="container-general-experiences">
 			<div className="container experiences-container">
-				<h1 className="experiences-title">Work Experiences</h1>
+				<h1 className="experiences-title">{t("work-experiences-title")}</h1>
 				<div className="experiences">
 					{listOfExperiences.map((experience) => (
 						<Experience

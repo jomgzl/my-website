@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../CSS/Experience.css";
+import { useTranslation } from "react-i18next";
 
 interface Props {
 	id: number;
@@ -11,12 +12,17 @@ interface Props {
 	skills: string[];
 }
 
-function Experience({ title, date, logo, description, tasks, skills }: Props) {
+function Experience({
+	id,
+	logo,
+	tasks,
+	skills,
+}: Props) {
 	let [showDetails, setShowDetails] = useState(false);
+	const { t } = useTranslation();
 
 	const showExperienceDetails = () => {
 		setShowDetails(!showDetails);
-
 	};
 
 	return (
@@ -27,7 +33,9 @@ function Experience({ title, date, logo, description, tasks, skills }: Props) {
 		>
 			<div className="experience-head" onClick={showExperienceDetails}>
 				<div className="experience-information">
-					<h4 className="experience-date">{date}</h4>
+					<h4 className="experience-date">
+						{t(`experiences.${id}.date`)}
+					</h4>
 					<img
 						src={logo}
 						className={`${
@@ -37,7 +45,7 @@ function Experience({ title, date, logo, description, tasks, skills }: Props) {
 						}`}
 						alt="company-logo"
 					/>
-					<h4>{title}</h4>
+					<h4>{t(`experiences.${id}.title`)}</h4>
 				</div>
 				<img
 					src="down-arrow.svg"
@@ -57,18 +65,22 @@ function Experience({ title, date, logo, description, tasks, skills }: Props) {
 						<img src="" alt="" />
 						<h5>Description</h5>
 					</div>
-					<p className="experience-description">{description}</p>
+					<p className="experience-description">
+						{t(`experiences.${id}.description`)}
+					</p>
 				</div>
 				<div className="experience-tasks-head">
-					<h5>Tasks</h5>
+					<h5>{t("tasks")}</h5>
 					<ul className="experience-tasks">
 						{tasks.map((task) => (
-							<li className="experience-task">{task}</li>
+							<li className="experience-task">
+								{t(`experiences.${id}.tasks.${task}`)}
+							</li>
 						))}
 					</ul>
 				</div>
 				<div className="experience-skills-head">
-					<h5>Skills</h5>
+					<h5>{t("skills")}</h5>
 					<div className="experience-skills">
 						{skills.map((skill) => (
 							<div key={skill} className="experience-skill">

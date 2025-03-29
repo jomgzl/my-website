@@ -1,0 +1,92 @@
+{
+	"about-title": "À Propos",
+	"skills": "Compétences",
+	"projects-title": "Projets",
+	"work-experiences-nav": "Exp. Professionnelles",
+	"work-experiences-title": "Expériences Professionnelles",
+	"language": "Langue",
+	"role": "Développeur Web",
+	"about": "Je suis un <strong>développeur web</strong> spécialisé dans l'écosystème <strong>JavaScript</strong>. J'aime créer des <strong>logiciels de haute qualité</strong> en appliquant du <strong>clean code</strong> et aux <strong>meilleures pratiques</strong>.",
+	"side-projects": "Projets Personnels",
+	"skills-cards": {
+		"1": {
+			"skills": {
+				"Node.js": "Node.js",
+				"Express.js": "Express.js",
+				"SQL": "SQL"
+			}
+		},
+		"2": {
+			"skills": {
+				"React.js": "React.js",
+				"TypeScript": "TypeScript",
+				"JavaScript": "JavaScript"
+			}
+		},
+		"3": {
+			"skills": {
+				"Communication": "Communication",
+				"Problem Solving": "Rés. de Problème",
+				"Teamwork": "Travail d'Équipe"
+			}
+		}
+	},
+	"projects": {
+		"1": {
+			"title": "Mon Site",
+			"summary": "Ce site web que j'ai créé pour présenter mon profil et mes compétences.",
+			"description": " Je voulais <strong>créer un site web</strong> qui <strong>me représente</strong> et qui présente mes <strong>compétences</strong> et mon <strong>profil</strong>. J'ai décidé de <strong>coder</strong> mon <strong>propre site web de zéro</strong>, en utilisant <strong>React</strong>, <strong>Vite</strong> et <strong>TypeScript</strong>.",
+			"technologies": ["React", "Vite", "TypeScript"],
+			"github": "https://github.com/jomgzl/my-website"
+		},
+		"2": {
+			"title": "TaskApp",
+			"summary": "J'ai créé un gestionnaire de tâches permettant une organisation quotidienne fluide.",
+			"description": "J'ai décidé de <strong>coder de zéro</strong> une <strong>application de gestion de tâches</strong> qui est, <strong>simple</strong>, <strong>directe</strong> et <strong>efficace</strong>. J'ai utilisé <strong>Node.js</strong>, <strong>Express.js</strong> et <strong>MySQL2</strong> pour la <strong>créer</strong>.",
+			"technologies": ["Node.js", "Express.js", "MySQL2"],
+			"github": "https://github.com/jomgzl/Task-App"
+		},
+		"3": {
+			"title": "Générateur de Mots de Passe",
+			"title-details": "Générateur de MDP",
+			"summary": "J'ai créé un générateur de mots de passe basique offrant plusieurs options de génération.",
+			"description": "Dans ma <strong>quête</strong> et <strong>ma passion</strong> pour la <strong>programmation</strong>, j'ai <strong>codé un générateur de mots de passe</strong> en <strong>Python</strong> permettant aux utilisateurs de choisir parmi <strong>plusieurs options de génération</strong>.",
+			"technologies": ["Python"],
+			"github": "https://github.com/jomgzl/Password-generator-Python"
+		}
+	},
+	"experiences": {
+		"1": {
+			"title": "Développeur Full Stack @Biteright",
+			"date": "jan. 2025 - aujourd'hui",
+			"description": "Développer une application de nutrition.",
+			"tasks": {
+				"Developed 60% of the front-end, according to the UX/UI designs.": "Développer 60 % du front-end, selon les designs UX/UI.",
+				"Integrated the app's AI with Apple and Android smartwatches.": "Intégrer l’IA de l’application aux montres connectées Apple et Android.",
+				"Collaborate with the CEO and CTO to define priorities.": "Collaborer avec le CEO et le CTO pour définir les priorités."
+			},
+			"skills": ["React Native", "AI", "Github"]
+		},
+		"2": {
+			"title": "Développeur Full Stack @Efficy",
+			"date": "jan. 2022 - dec. 2022",
+			"description": "Concevoir et développer plusieurs projets personnalisés à divers clients.",
+			"tasks": {
+				"Designed and developed 20+ new features using JavaScript, jQuery, Node.js, SQL and SVN.": "Concevoir et développer plus de 20 nouvelles fonctionnalités en utilisant JavaScript, jQuery, Node.js, SQL et SVN.",
+				"Debugged and identified 40+ issues, contributing to a customer satisfaction increase of up to 95%.": "Déboguer et identifier plus de 40 bugs, contribuant à une augmentation de la satisfaction client jusqu'à 95 %.",
+				"Collaborated using Agile methodologies within cross-functional teams.": "Collaborer au sein d'équipes multidisciplinaires en appliquant les méthodologies Agile."
+			},
+			"skills": ["Node.js", "JavaScript", "Clean Code", "MSSQL", "SVN"]
+		},
+		"3": {
+			"title": "Développeur Full Stack @BSynchro",
+			"date": "oct. 2021 - dec. 2021",
+			"description": "Développer une version bêta d'un site répertoriant des films.",
+			"tasks": {
+				"Collaborated with senior developers to code responsive and interactive interfaces using Angular and C#.": "Collaborer avec des développeurs seniors pour coder des interfaces responsives et interactives en utilisant Angular et C#."
+			},
+			"skills": ["C#", "Interfaces Responsives", "Github"]
+		}
+	},
+	"tasks": "Missions"
+}

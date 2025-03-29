@@ -1,4 +1,5 @@
 import "../CSS/Project.css";
+import { useTranslation } from "react-i18next";
 
 interface Props {
 	id: number;
@@ -11,15 +12,17 @@ interface Props {
 	onClick: () => void;
 }
 
-function Project({ title, logo, summary, technologies, onClick }: Props) {
+function Project({id, logo, technologies, onClick }: Props) {
+	const { t } = useTranslation();
+
 	return (
 		<div className="project-container" onClick={onClick}>
 			<div>
-				<img className="project-logo" src={logo} alt={title} />
+				<img className="project-logo" src={logo} alt={t(`projects.${id}.title`)} />
 			</div>
 			<div className="project-presentation">
-				<h3 className="project-title">{title}</h3>
-				<p className="project-description">{summary}</p>
+				<h3 className="project-title">{t(`projects.${id}.title`)}</h3>
+				<p className="project-description">{t(`projects.${id}.summary`)}</p>
 				<div className="project-technologies">
 					{technologies.map((technology) => (
 						<div key={technology} className="project-technology">

@@ -1,15 +1,6 @@
 [
 	{
 		"id": 1,
-		"title": "TaskApp",
-		"logo": "task-app.gif",
-		"summary": "I crafted a task application allowing smooth daily organization.",
-		"description": "I decided to code a task app that would be simple, straightforward and efficient. I used Node.js, Express.js and MySQL2 to built it from scratch.",
-		"technologies": ["Node.js", "Express.js", "MySQL2"],
-		"github": "https://github.com/jomgzl/Task-App"
-	},
-	{
-		"id": 2,
 		"title": "My Website",
 		"logo": "my-website.gif",
 		"summary": " This website that I built to showcase my skills and present my profile.",
@@ -18,10 +9,19 @@
 		"github": "https://github.com/jomgzl/my-website"
 	},
 	{
+		"id": 2,
+		"title": "TaskApp",
+		"logo": "task-app.gif",
+		"summary": "I crafted a task application allowing smooth daily organization.",
+		"description": "I decided to code a task app that would be simple, straightforward and efficient. I used Node.js, Express.js and MySQL2 to build it from scratch.",
+		"technologies": ["Node.js", "Express.js", "MySQL2"],
+		"github": "https://github.com/jomgzl/Task-App"
+	},
+	{
 		"id": 3,
 		"title": "Password Generator",
 		"logo": "password-generator.gif",
-		"summary": "I crafted a basic password generator offering multiple generation choices.",
+		"summary": "I crafted a password generator offering multiple generation choices.",
 		"description": "In my quest and passion for programming, I coded a password generator using Python that allows users to choose from multiple generation options.",
 		"technologies": ["Python"],
 		"github": "https://github.com/jomgzl/Password-generator-Python"

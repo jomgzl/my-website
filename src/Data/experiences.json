@@ -7,8 +7,8 @@
 		"description": "Developed a nutrition app.",
 		"tasks": [
 			"Developed 60% of the front-end, according to the UX/UI designs.",
-			"Integrated the app's AI with Apple smartwatches.",
-			"Collaborate with the CEO and CTO to define priorities"
+			"Integrated the app's AI with Apple and Android smartwatches.",
+			"Collaborate with the CEO and CTO to define priorities."
 		],
 		"skills": ["React Native", "AI", "Github"]
 	},
